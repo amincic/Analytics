@@ -1,0 +1,7 @@
+STP ratio - automatic bookout:
+event_data.action.type : "blocktrade.create" AND event_data.blocktrade.stpmode: "STP" AND event_data.action.userid: "sys"
+event_data.action.type : "blocktrade.create" AND event_data.action.userid: "sys"
+
+STP ratio - manual bookout:
+event_data.action.type : "blocktrade.create" AND event_data.blocktrade.stpmode: "STP" AND event_data.action.userid: "sys"
+event_data.action.type : "blocktrade.create" AND event_data.action.userid: "sys"
