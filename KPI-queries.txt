@@ -1,7 +1,14 @@
-STP ratio - automatic bookout:
+STP ratio - automatic bookout - PIE chart
+event_data.action.type : "blocktrade.create" AND event_data.blocktrade.stpmode: "STP" AND event_data.action.userid: "sys$ul-middle"
+event_data.action.type : "blocktrade.create" AND event_data.action.userid: "sys$ul-middle"
+
+STP ratio - manual bookout - PIE chart
 event_data.action.type : "blocktrade.create" AND event_data.blocktrade.stpmode: "STP" AND event_data.action.userid: "sys"
 event_data.action.type : "blocktrade.create" AND event_data.action.userid: "sys"
 
-STP ratio - manual bookout:
-event_data.action.type : "blocktrade.create" AND event_data.blocktrade.stpmode: "STP" AND event_data.action.userid: "sys"
-event_data.action.type : "blocktrade.create" AND event_data.action.userid: "sys"
+Booking & Allocations:
+- counter per day
+
+
+- CancelRate
+- Update Rate
